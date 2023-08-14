@@ -1,6 +1,7 @@
 {
   "version": 1,
   "functions": {
+    "/api/blogs/[id]": {},
     "/api/blogs": {},
     "/api/popularImage": {},
     "/api/popularPost": {},

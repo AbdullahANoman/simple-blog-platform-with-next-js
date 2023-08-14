@@ -382,7 +382,9 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(6786);
 ;// CONCATENATED MODULE: ./src/utils/loadSingleBlog.js
 const loadSingleBlog = async (id)=>{
-    const res = await fetch(`http://localhost:4000/blogs/${id}`);
+    const res = await fetch(`http://localhost:4000/blogs/${id}`, {
+        cache: "force-cache"
+    });
     return res.json();
 };
 
