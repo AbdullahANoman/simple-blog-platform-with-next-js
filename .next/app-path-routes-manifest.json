@@ -1,0 +1,12 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/api/route": "/api",
+  "/(with-layout)/page": "/",
+  "/api/popularPost/route": "/api/popularPost",
+  "/api/popularImage/route": "/api/popularImage",
+  "/api/blogs/route": "/api/blogs",
+  "/api/profileImage/route": "/api/profileImage",
+  "/(with-layout)/about/page": "/about",
+  "/(with-layout)/blogs/page": "/blogs",
+  "/(with-layout)/blogs/[id]/page": "/blogs/[id]"
+}
