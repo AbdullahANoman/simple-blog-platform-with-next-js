@@ -26,7 +26,7 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(6786);
 ;// CONCATENATED MODULE: ./src/utils/loadBlogs.js
 const loadBlogs = async ()=>{
-    const res = await fetch("http://localhost:4000/blogs");
+    const res = await fetch("https://simple-blog-platform-with-next-js-ten9.vercel.app/api/blogs");
     return res.json();
 };
 
