@@ -9,10 +9,6 @@ const navLinks = [
     title: "Home",
   },
   {
-    path: "/about",
-    title: "About",
-  },
-  {
     path: "/blogs",
     title: "Blogs",
   },

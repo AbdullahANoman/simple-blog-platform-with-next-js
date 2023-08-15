@@ -256,7 +256,7 @@ const tree = {
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7721)), "/home/abdullah_al_noman/simple_blog_platform/src/app/(with-layout)/layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8958)), "/home/abdullah_al_noman/simple_blog_platform/src/app/(with-layout)/layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -319,7 +319,8 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _with_layout_page)
+  "default": () => (/* binding */ _with_layout_page),
+  revalidate: () => (/* binding */ page_revalidate)
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
@@ -522,19 +523,21 @@ const Profile = async ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex justify-between mt-2",
+                className: "flex justify-between mt-2 uppercase my-2",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: "text-gray-600 font-semibold",
                         children: "Profile"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: "font-semibold text-gray-400",
                         children: "Edit"
                     })
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("hr", {}),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "grid grid-cols-5 mt-5",
+                className: "grid grid-cols-5 mt-5 gap-2",
                 children: images.map((picture)=>/*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         alt: "this is rendering image",
                         height: 30,
@@ -609,9 +612,12 @@ const PopularPost = async ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                className: "text-gray-800 font-semibold text-xl my-2",
                 children: "Popular Posts"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("hr", {}),
+            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                className: "border "
+            }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "mt-4",
                 children: popularPost.map((post, index)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -666,9 +672,12 @@ const PopularImages = async ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                className: "text-xl font-semibold text-gray-800 py-2",
                 children: "Images"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("hr", {}),
+            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                className: "border"
+            }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "grid grid-cols-3 gap-2 mt-3",
                 children: popularImages.map((popularImage, index)=>/*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
@@ -709,6 +718,7 @@ const Popular = ()=>{
 
 
 
+const page_revalidate = 5;
 const Home = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: "",
@@ -719,15 +729,15 @@ const Home = ()=>{
                 className: "container mx-auto grid grid-cols-12   ",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "col-span-3 mx-auto bg-white shadow-xl mt-5",
+                        className: "col-span-3 hidden md:flex  mx-auto bg-white rounded-xl max-h-[550px] shadow-xl mt-5",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(Categories_Categories, {})
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "col-span-6 mx-auto -mt-28 rounded-xl  bg-white mr-11  shadow-xl",
+                        className: "col-span-12 md:col-span-6  mx-auto -mt-8 md:-mt-28 rounded-xl  md:mr-11  ",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(page["default"], {})
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "col-span-3 mx-auto bg-white shadow-xl mt-5",
+                        className: "col-span-3 hidden md:flex mx-auto bg-white shadow-xl mt-5 max-h-[1100px] rounded-xl ",
                         children: /*#__PURE__*/ jsx_runtime_.jsx(Popular_Popular, {})
                     })
                 ]
@@ -747,7 +757,7 @@ const Home = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,678,215,976,325,610], () => (__webpack_exec__(8517)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,858,976,827,610], () => (__webpack_exec__(8517)));
 module.exports = __webpack_exports__;
 
 })();

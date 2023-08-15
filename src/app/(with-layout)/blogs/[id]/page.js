@@ -21,7 +21,7 @@ const SingleBlog = async ({ params }) => {
     image2,
   } = blog || {};
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto px-5 pb-10">
       <Image alt="this is rendering image"src={bannerImage} width={1500} height={1000}></Image>
       <p className="text-4xl">{postTitle}</p>
       <div className="flex items-center gap-5 mt-3">
@@ -41,19 +41,19 @@ const SingleBlog = async ({ params }) => {
         <div className="flex gap-4">
           <button>
             <FaFacebookSquare
-              className="bg-[#39559B] text-white w-[250px] py-2"
+              className="bg-[#39559B] text-white md:w-[250px] py-2"
               size={50}
             ></FaFacebookSquare>
           </button>
           <button>
             <FaTwitter
-              className="bg-[#5AA8DF] text-white w-[250px] py-2"
+              className="bg-[#5AA8DF] text-white md:w-[250px] py-2"
               size={50}
             ></FaTwitter>
           </button>
           <button>
             <AiOutlinePlus
-              className="bg-[#C3D0D8] font-bold text-white w-[100px] py-2"
+              className="bg-[#C3D0D8] font-bold text-white md:w-[100px] py-2"
               size={50}
             ></AiOutlinePlus>
           </button>
@@ -63,13 +63,13 @@ const SingleBlog = async ({ params }) => {
         <p className="text-gray-500">{postDetails}</p>
         <p className="text-gray-500 mt-4">{postDetails}</p>
       </div>
-      <div className="py-10 flex justify-center gap-5">
+      <div className="py-10 flex flex-wrap justify-center gap-5">
         <Image alt="this is rendering image"src={image} width={600} height={1000}></Image>
         <Image alt="this is rendering image"src={image2} width={600} height={1000}></Image>
       </div>
       <div>
         <p className="text-gray-500 my-5">{postDetails}</p>
-        <Image alt="this is rendering image"src={image1} width={700} height={600}></Image>
+        <Image alt="this is rendering image"src={image1} width={600} height={400}></Image>
       </div>
     </div>
   );

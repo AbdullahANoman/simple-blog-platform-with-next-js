@@ -6,8 +6,8 @@ const PopularPost = async () => {
   const popularPost = await loadPopularPost();
   return (
     <div>
-      <p>Popular Posts</p>
-      <hr />
+      <p className="text-gray-800 font-semibold text-xl my-2">Popular Posts</p>
+      <hr className="border "  />
       <div className="mt-4">
         {popularPost.map((post,index) => (
           <div key={index} className="grid grid-cols-5 items-center gap-3">

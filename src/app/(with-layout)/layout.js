@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
 const WithLayout = ({ children }) => {
   return (
@@ -8,7 +9,7 @@ const WithLayout = ({ children }) => {
       <div className="bg-[#EFF3F5]">
         <div className="">{children}</div>
       </div>
-      <footer className="mt-10">This is footer</footer>
+      <Footer></Footer>
     </div>
   );
 };

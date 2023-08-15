@@ -6,6 +6,7 @@
     "/api/popularImage": {},
     "/api/popularPost": {},
     "/api/profileImage": {},
-    "/api": {}
+    "/api": {},
+    "/": {}
   }
 }

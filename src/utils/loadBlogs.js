@@ -1,5 +1,5 @@
 export const loadBlogs = async () => {
-    const res = await fetch("https://simple-blog-platform-with-next-js.vercel.app/api/blogs");
+    const res = await fetch("http://localhost:4000/blogs");
     return res.json();
   };
   

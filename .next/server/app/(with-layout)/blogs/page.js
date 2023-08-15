@@ -265,7 +265,7 @@ const tree = {
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7721)), "/home/abdullah_al_noman/simple_blog_platform/src/app/(with-layout)/layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8958)), "/home/abdullah_al_noman/simple_blog_platform/src/app/(with-layout)/layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -327,7 +327,7 @@ const routeModule = new AppPageRouteModule({
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,678,215,325,610], () => (__webpack_exec__(4089)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,858,827,610], () => (__webpack_exec__(4089)));
 module.exports = __webpack_exports__;
 
 })();

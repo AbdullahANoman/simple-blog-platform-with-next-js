@@ -304,7 +304,7 @@ const tree = {
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7721)), "/home/abdullah_al_noman/simple_blog_platform/src/app/(with-layout)/layout.js"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8958)), "/home/abdullah_al_noman/simple_blog_platform/src/app/(with-layout)/layout.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -382,7 +382,7 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(6786);
 ;// CONCATENATED MODULE: ./src/utils/loadSingleBlog.js
 const loadSingleBlog = async (id)=>{
-    const res = await fetch(`https://simple-blog-platform-with-next-js.vercel.app/api/blogs/${id}`, {
+    const res = await fetch(`http://localhost:4000/blogs/${id}`, {
         cache: "force-cache"
     });
     return res.json();
@@ -408,7 +408,7 @@ const SingleBlog = async ({ params })=>{
     const blog = await loadSingleBlog(params?.id);
     const { bannerImage, authorName, authorImage, time, type, postTitle, postDetails, postDetailsOne, postDetailsTwo, image, image1, image2 } = blog || {};
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "max-w-7xl mx-auto",
+        className: "max-w-7xl mx-auto px-5 pb-10",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "this is rendering image",
@@ -457,19 +457,19 @@ const SingleBlog = async ({ params })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("button", {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx(index_esm/* FaFacebookSquare */.R9i, {
-                                    className: "bg-[#39559B] text-white w-[250px] py-2",
+                                    className: "bg-[#39559B] text-white md:w-[250px] py-2",
                                     size: 50
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("button", {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx(index_esm/* FaTwitter */.fWC, {
-                                    className: "bg-[#5AA8DF] text-white w-[250px] py-2",
+                                    className: "bg-[#5AA8DF] text-white md:w-[250px] py-2",
                                     size: 50
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("button", {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx(ai_index_esm/* AiOutlinePlus */.Lfi, {
-                                    className: "bg-[#C3D0D8] font-bold text-white w-[100px] py-2",
+                                    className: "bg-[#C3D0D8] font-bold text-white md:w-[100px] py-2",
                                     size: 50
                                 })
                             })
@@ -490,7 +490,7 @@ const SingleBlog = async ({ params })=>{
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "py-10 flex justify-center gap-5",
+                className: "py-10 flex flex-wrap justify-center gap-5",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         alt: "this is rendering image",
@@ -515,8 +515,8 @@ const SingleBlog = async ({ params })=>{
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         alt: "this is rendering image",
                         src: image1,
-                        width: 700,
-                        height: 600
+                        width: 600,
+                        height: 400
                     })
                 ]
             })
@@ -535,7 +535,7 @@ const SingleBlog = async ({ params })=>{
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,678,215,436,325], () => (__webpack_exec__(2968)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,858,436,827], () => (__webpack_exec__(2968)));
 module.exports = __webpack_exports__;
 
 })();

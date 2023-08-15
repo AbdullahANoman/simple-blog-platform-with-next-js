@@ -1,15 +1,15 @@
 {
   "pages": {
     "/layout": [
-      "static/chunks/webpack-567bd20ed5d34957.js",
+      "static/chunks/webpack-fc830f38698a0c2c.js",
       "static/chunks/fd9d1056-2a82911b7ac5e265.js",
       "static/chunks/596-1b85c280d089b1ef.js",
       "static/chunks/main-app-ec62610eab3e1529.js",
-      "static/css/d778ccc8f90c4929.css",
-      "static/chunks/app/layout-418c1a67061e51fa.js"
+      "static/css/62a30d4cab669061.css",
+      "static/chunks/app/layout-fd52ac26b1bb3c82.js"
     ],
     "/(with-layout)/page": [
-      "static/chunks/webpack-567bd20ed5d34957.js",
+      "static/chunks/webpack-fc830f38698a0c2c.js",
       "static/chunks/fd9d1056-2a82911b7ac5e265.js",
       "static/chunks/596-1b85c280d089b1ef.js",
       "static/chunks/main-app-ec62610eab3e1529.js",
@@ -18,7 +18,7 @@
       "static/chunks/app/(with-layout)/page-f0ad511c5d5808f8.js"
     ],
     "/(with-layout)/layout": [
-      "static/chunks/webpack-567bd20ed5d34957.js",
+      "static/chunks/webpack-fc830f38698a0c2c.js",
       "static/chunks/fd9d1056-2a82911b7ac5e265.js",
       "static/chunks/596-1b85c280d089b1ef.js",
       "static/chunks/main-app-ec62610eab3e1529.js",
@@ -26,15 +26,8 @@
       "static/chunks/685-93c2c2680aa8592b.js",
       "static/chunks/app/(with-layout)/layout-68b4a88556086840.js"
     ],
-    "/(with-layout)/about/page": [
-      "static/chunks/webpack-567bd20ed5d34957.js",
-      "static/chunks/fd9d1056-2a82911b7ac5e265.js",
-      "static/chunks/596-1b85c280d089b1ef.js",
-      "static/chunks/main-app-ec62610eab3e1529.js",
-      "static/chunks/app/(with-layout)/about/page-58e9148c80f98e92.js"
-    ],
     "/(with-layout)/blogs/page": [
-      "static/chunks/webpack-567bd20ed5d34957.js",
+      "static/chunks/webpack-fc830f38698a0c2c.js",
       "static/chunks/fd9d1056-2a82911b7ac5e265.js",
       "static/chunks/596-1b85c280d089b1ef.js",
       "static/chunks/main-app-ec62610eab3e1529.js",
@@ -43,7 +36,7 @@
       "static/chunks/app/(with-layout)/blogs/page-f4391309f3f6e8ca.js"
     ],
     "/(with-layout)/blogs/[id]/page": [
-      "static/chunks/webpack-567bd20ed5d34957.js",
+      "static/chunks/webpack-fc830f38698a0c2c.js",
       "static/chunks/fd9d1056-2a82911b7ac5e265.js",
       "static/chunks/596-1b85c280d089b1ef.js",
       "static/chunks/main-app-ec62610eab3e1529.js",

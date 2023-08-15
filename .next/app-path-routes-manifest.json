@@ -1,12 +1,11 @@
 {
   "/favicon.ico/route": "/favicon.ico",
   "/api/route": "/api",
-  "/(with-layout)/page": "/",
-  "/api/popularImage/route": "/api/popularImage",
   "/api/blogs/route": "/api/blogs",
-  "/api/profileImage/route": "/api/profileImage",
+  "/(with-layout)/page": "/",
   "/api/popularPost/route": "/api/popularPost",
-  "/(with-layout)/about/page": "/about",
+  "/api/popularImage/route": "/api/popularImage",
+  "/api/profileImage/route": "/api/profileImage",
   "/(with-layout)/blogs/page": "/blogs",
   "/api/blogs/[id]/route": "/api/blogs/[id]",
   "/(with-layout)/blogs/[id]/page": "/blogs/[id]"

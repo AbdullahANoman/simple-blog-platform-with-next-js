@@ -6,8 +6,8 @@ const PopularImages = async() => {
     const popularImages = await loadPopularImages();
     return (
         <div>
-            <p>Images</p>
-            <hr />
+            <p className='text-xl font-semibold text-gray-800 py-2'>Images</p>
+            <hr className='border' />
             <div className='grid grid-cols-3 gap-2 mt-3'>
                 {
                     popularImages.map((popularImage,index)=>(
