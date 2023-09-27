@@ -1,12 +1,3 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/api/route": "app/api/route.js",
-  "/api/blogs/route": "app/api/blogs/route.js",
-  "/(with-layout)/page": "app/(with-layout)/page.js",
-  "/api/popularImage/route": "app/api/popularImage/route.js",
-  "/api/popularPost/route": "app/api/popularPost/route.js",
-  "/api/profileImage/route": "app/api/profileImage/route.js",
-  "/(with-layout)/blogs/page": "app/(with-layout)/blogs/page.js",
-  "/api/blogs/[id]/route": "app/api/blogs/[id]/route.js",
-  "/(with-layout)/blogs/[id]/page": "app/(with-layout)/blogs/[id]/page.js"
+  "/(with-layout)/page": "app/(with-layout)/page.js"
 }
