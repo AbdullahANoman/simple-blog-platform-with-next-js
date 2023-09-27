@@ -1,5 +1,6 @@
-import { NextResponse } from "next/server"
+import { NextResponse } from "next/server";
 
-export const GET = () =>{
-    return NextResponse.json({message : 'Hello Api'})
-}
+export const GET = (request) => {
+  let showThings = { message: "hello blogs" };
+  return NextResponse.json(showThings);
+};
