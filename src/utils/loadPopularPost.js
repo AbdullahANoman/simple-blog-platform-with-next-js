@@ -1,5 +1,5 @@
 export const loadPopularPost = async () => {
-    const res = await fetch("http://localhost:4000/popularPost");
+    const res = await fetch("https://simple-blog-platform-with-next-js.vercel.app/api/popularPost");
     return res.json()
   };
   

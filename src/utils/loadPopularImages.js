@@ -1,5 +1,5 @@
 export const loadPopularImages = async () => {
-    const res = await fetch("http://localhost:4000/popularImages");
+    const res = await fetch("https://simple-blog-platform-with-next-js.vercel.app/api/popularImage");
     return res.json()
   };
   
